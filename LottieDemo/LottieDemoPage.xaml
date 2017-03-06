@@ -4,12 +4,8 @@
 		xmlns:local="clr-namespace:LottieDemo" 
      	xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
 		x:Class="LottieDemo.LottieDemoPage">
-	<StackLayout Orientation="Vertical" Spacing="20">
-		<lottie:AnimationView
-		    x:Name="lottieAnim"
-		    Animation="LottieLogo1.json"
-		    Loop="True"
-		    AutoPlay="True"/>
+	<StackLayout Orientation="Vertical" Spacing="20" BackgroundColor="Black">
+		<lottie:AnimationView x:Name="lottieAnim"/>
 
 		<StackLayout Orientation="Horizontal" Spacing="20">
 			<Slider ValueChanged="Slider_OnValueChanged" HorizontalOptions="FillAndExpand"/>

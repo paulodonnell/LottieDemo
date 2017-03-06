@@ -141,6 +141,8 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\LottieLogo1.json" />
+    <AndroidAsset Include="Assets\hamburger.json" />
+    <AndroidAsset Include="Assets\LottieDemoAnim.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />
